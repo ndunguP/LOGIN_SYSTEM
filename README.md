@@ -3,7 +3,7 @@ Building a Login System with Python Flask and MySQL.
 There are a few steps we need to take before we create our python login and registration system, we need to download and set up Python and the packages we’re going to use.
 
 Requirements
-Download and install Python, for this tutorial I’ll be using Python 3.7.2, make sure to check the box Add Python to PATH on the installation setup screen.
+Download and install Python, for this project I will be using Python 3.7.2, make sure to check the box Add Python to PATH on the installation setup screen.
 Download and install MySQL Community Server and MySQL Workbench, you can skip this step if you already have a MySQL server set up.
 Install Python Flask with the command: pip install flask
 Install Flask-MySQLdb with the command: pip install flask-mysqldb
@@ -33,7 +33,7 @@ home.html — The home template to display for logged-in users.
 profile.html — The profile template to display for logged-in users.
 layout.html — The layout template for the home and profile templates.
 style.css — The CSS3 stylesheet for our login and registration system.
-The below instruction will start your web server (Windows):
+
 
 Make sure your MySQL server is up and running, it should have automatically started if you installed it via the installer.
 Open Command Prompt, make sure you have the project directory selected, you can do this with the command cd c:\your_project_folder_destination on Windows.
